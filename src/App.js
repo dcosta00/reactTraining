@@ -26,6 +26,7 @@ export default class App extends Component {
     console.log(filteredMonsters);
     return (
       <div className="App">
+        <h1>Robot Rolodex</h1>
         <Searchbox
           placeholder="Search Robot"
           handleChange={e => this.setState({ searchfield: e.target.value })}
